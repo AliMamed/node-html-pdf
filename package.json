@@ -1,5 +1,5 @@
 {
-  "name": "html-pdf",
+  "name": "@alimamed/html-pdf",
   "version": "2.2.0",
   "description": "HTML to PDF converter that uses phantomjs",
   "engines": {
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "standard && tape test/index.js examples/*/test.js"
   },
-  "author": "Marc Bachmann",
+  "author": "Ali Mamed",
   "license": "MIT",
   "devDependencies": {
     "standard": "^5.1.1",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/marcbachmann/node-html-pdf.git"
+    "url": "git://github.com/AliMamed/node-html-pdf.git"
   },
   "keywords": [
     "html",
@@ -37,7 +37,11 @@
     "nodejs"
   ],
   "bugs": {
-    "url": "https://github.com/marcbachmann/node-html-pdf/issues"
+    "url": "https://github.com/AliMamed/node-html-pdf/issues"
   },
-  "homepage": "https://github.com/marcbachmann/node-html-pdf"
+  "homepage": "https://github.com/AliMamed/node-html-pdf",
+  "dependencies": {
+    "dompurify": "^2.0.8",
+    "jsdom": "^16.1.0"
+  }
 }
